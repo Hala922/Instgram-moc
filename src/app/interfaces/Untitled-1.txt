@@ -1,0 +1,15 @@
+# This feed will have 10 posts
+# Each post will have the following:
+# 1. Title of the post
+# 2. Picture (use https://unsplash.com)
+# 3. Below the picture I want the 3 actions (Like, Comment and Share)
+# 4. Description section
+
+# Requirements:
+# 1. There needs to be a Post component.
+# 2. All 10 posts should use the same post component
+# 3. The data for the 10 posts should be a mock array of objects
+# 4. When I click on the like button it
+#    should fill in. (Use Material Icons)
+# 5. You must use *ngFor on the data
+# 6. You must create an interface for the data

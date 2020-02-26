@@ -1,0 +1,10 @@
+
+.PostContainer {
+  display: block; /* .d-block */
+  margin-right: auto; /* .mr-auto */
+  margin-left: auto; /* .ml-auto */
+  margin-bottom: 15px; /* .mb-1 */
+  width: 30%;
+  height:70%;
+}
+

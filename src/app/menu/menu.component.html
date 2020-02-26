@@ -1,0 +1,20 @@
+<a
+    class="nav-link d-flex align-items-center"
+    href="#"
+    (click)="open()"
+>
+    <i class="material-icons">menu</i>
+</a>
+<div *ngIf="show">
+    <div class="menuOverlay" (click)="close()"></div>
+    <div class="menuContainer">
+        <ul>
+            <li>
+                <a href="#">Settings</a>
+            </li>
+            <li>
+                <a href="#">Logout</a>
+            </li>
+        </ul>
+    </div>
+</div>
