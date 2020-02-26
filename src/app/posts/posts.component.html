@@ -1,12 +1,8 @@
  
 <div class="container">
-  <ul class="list-unstyled row ">
-      <!--
-          *ngFor is an angular directive
-          allows you to do Javascript loops in HTML
-      -->
+  <ul  >
+
       <li class="col-10 border Regular shadow  PostContainer" *ngFor="let post of posts">
-        
         <div>
           <!--<h6 class="text ">{{ post.id }} </h6> -->
         
@@ -17,7 +13,6 @@
               width="30px"
               height="40px"
               style="float:left"
-              
           >
           <h6 class="text ">{{ post.username }} </h6>
           <h6 class="text ">{{ post.title }}</h6>
@@ -32,13 +27,13 @@
               >
                 
           <p>{{ post.description }}</p>
-        
-          <i class="mdc-icon-button material-icons" href="#" >favorite_border</i>
-          
-         <!-- 
-           <button type="button" class="mdc-icon-button material-icons "> favorite_border</button>
-           <button    *ngIf="mdc-icon-button--on" type="button" class="mdc-icon-button material-icons "> favorite_border</button>
-         -->
+         
+          <button  class=" material-icons icon_empty"     
+             (click)="like =!like" 
+               [class.icon_full]="like" border_color=0> 
+                favorite  
+            </button>
+
           
           <i class="  material-icons" href="#" >share</i>
           <i class="  material-icons" href="#" >add_comment</i>

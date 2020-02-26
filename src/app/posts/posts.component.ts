@@ -15,6 +15,20 @@ export class PostsComponent implements OnInit {
   constructor() {
     console.log(this.posts);
    }
+   like: boolean = false;
+   like_No: number =0;
+
+   setLike() {
+     this.like = true;
+     this.like_No ++;
+     
+   }
+ 
+   UnLike() {
+     this.like = false;
+     this.like_No--;
+   }
+
 
   ngOnInit() {
     console.log(this.posts);

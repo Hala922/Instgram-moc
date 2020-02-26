@@ -6,6 +6,7 @@ export const POSTS = [
         photo: 'https://images.unsplash.com/photo-1582529041741-3dc9b7beeb8c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80',
         title: 'modern light  ',
         description: ' Videographer for concerts, music festivals. // Based in Shenzhen, China. // also a film fanatic. //微博Weibo/B站bilibili: Willson泽豪' ,
+        likes:0,
          },
         {
             id: 2,
@@ -14,6 +15,7 @@ export const POSTS = [
             photo: 'https://images.unsplash.com/photo-1562129832-095c89b65d48?ixlib=rb-1.2.1&auto=format&fit=crop&w=2475&q=80 ',
             title: 'Abstract City',
             description: ' 465 Elizabeth St, Melbourne VIC 3000, Australia, Melbourne' ,
+            likes:0,
             },
          {
             id: 3,
@@ -22,6 +24,7 @@ export const POSTS = [
             photo: 'https://images.unsplash.com/photo-1582546875108-059df69cc22e?ixlib=rb-1.2.1&auto=format&fit=crop&w=2434&q=80',
             title: 'Dark see ',
             description: ' Dunkirk, France' ,
+            likes:0,
               },
          {
             id: 4,
@@ -30,6 +33,7 @@ export const POSTS = [
             photo: 'https://images.unsplash.com/photo-1582528617848-af3c559c4d71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2434&q=80 ',
             title: '#Abstract City',
             description: ' Edmonton Photographer. Instagram @BanterSnaps' ,
+            likes:0,
           },
          {
             id: 5,
@@ -38,6 +42,7 @@ export const POSTS = [
             photo: 'https://images.unsplash.com/photo-1581375714520-97d836fb67c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2200&q=80',
             title: 'Running the roads',
             description: ' Running the roads of the Snowdonia mountains, North Wales, UK ' ,
+            likes:0,
          },
          {
             id: 6,
@@ -46,6 +51,7 @@ export const POSTS = [
             photo:'https://images.unsplash.com/photo-1582577854915-ac88385aa20e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2434&q=80',
             title: ' Newberg, Oregon',
             description: ' I work in the town where I was born. I’m interested in poetry, the outdoors, and food. Prints available at ericmuhr.club' ,
+            likes:0,
             
               
          },
@@ -56,6 +62,7 @@ export const POSTS = [
             photo: 'https://images.unsplash.com/photo-1582625368014-2b8090f1eefc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2196&q=80',
             title: 'Contemprary London  ',
             description: ' Empowering Women at http://www.see2believe.co.uk/QUEENS' ,
+            likes:0,
           },
           {
             id: 8,
@@ -64,6 +71,7 @@ export const POSTS = [
             photo: 'https://images.unsplash.com/photo-1571561544934-c875a47034e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80 ',
             title: 'vision to the past  ',
             description: ' 465 Elizabeth St, Melbourne VIC 3000, Australia, Melbourne' ,
+            likes:0,
           },
           {
             id: 9,
@@ -72,13 +80,15 @@ export const POSTS = [
             photo: 'https://images.unsplash.com/photo-1504703395950-b89145a5425b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=702&q=80 ',
             title: 'gray is the new black',
             description: ' 465 Elizabeth St, Melbourne VIC 3000, Australia, Melbourne' ,
+            likes:0,
           },
           {
             id: 10,
             username: 'JJ Jordan',
             profilePhoto: 'https://images.unsplash.com/profile-1545371003355-fabb637a40e8?dpr=2&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff',
             photo: 'https://images.unsplash.com/photo-1509319117193-57bab727e09d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2434&q=80 ',
-            title: 'Hang on me ',
+            title: 'Lay on me ',
             description: ' 465 Elizabeth St, Melbourne VIC 3000, Australia, Melbourne' ,
+            likes:0,
           },
         ];

@@ -1,10 +1,25 @@
 
 .PostContainer {
-  display: block; /* .d-block */
-  margin-right: auto; /* .mr-auto */
-  margin-left: auto; /* .ml-auto */
-  margin-bottom: 15px; /* .mb-1 */
-  width: 30%;
-  height:70%;
-}
+  display: block; 
+  margin: auto;  
+  margin-bottom: 15px;  
 
+  width: 55%;
+  height:75%;
+}
+.icon_empty{
+  color: rgba(207, 177, 177, 0.541);
+  border:0;
+  background-color: white;
+ }
+
+.icon_full {
+  color: red;
+  border: 0;
+  background-color: white;
+  }
+  button:active {
+    border: initial;
+    border:0 ;
+}
+ 
